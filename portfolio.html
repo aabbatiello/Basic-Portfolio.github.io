@@ -1,11 +1,21 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript for Bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<title>Basic Portfolio Contact</title>
+
+    <!-- Custom styles for this template -->
 	<link rel="stylesheet" type="text/css" href="Assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="Assets/css/style.css">
 </head>
-
 
 <body>
 <header>
@@ -22,20 +32,68 @@
 
 <section>
 	<h2>Portfolio</h2>
-		<div id="pic1">
-			<img src=https://scontent-ord1-1.xx.fbcdn.net/v/t1.0-9/15826885_1756885141003714_5632914908586628810_n.jpg?oh=2ebf14957ed1855f614447ede5b8e600&oe=595D35FF align =left height="200">
-		</div>
-		<div id="pic2">
-			<img src="https://scontent-ord1-1.xx.fbcdn.net/v/t1.0-9/13775911_1514784561880441_5793464752085609711_n.jpg?oh=667bd63308c33c0748c4a654524b1c9a&oe=599491F9" align =left height="200">
-		</div>
-		<div id="pic3">
-			<img src="https://scontent-ord1-1.xx.fbcdn.net/v/t1.0-9/16507999_1834437069915187_7321938452862489654_n.jpg?oh=014431a6d0ad2e9b096a07fecb9079ba&oe=5994462E" align =left height="200">
-		</div>
-			<div id="pic4">
-		<img src="https://scontent-ord1-1.xx.fbcdn.net/v/t1.0-9/14570290_1639395212752708_8847410694487549256_n.jpg?oh=7c071322c85d0409896f7d0ba8501b8b&oe=5962A2E7" align =left height="200">
-		<div id="pic5">
-		<img src="https://scontent-ord1-1.xx.fbcdn.net/v/t1.0-9/2465_1052504586386_891345_n.jpg?oh=3f5d69004d78e0387c315f5b16a19b39&oe=5960E8E4" align =left height="200">
-		</div>
+	 <!-- Begin Main Content-->
+      <div class="row">
+        <div class="col-xs-20 col-md-20 col-lg-20"> 
+        <!-- Begin Portfolio Content -->
+            <div class="panel-body text-muted">
+              <div class="row">
+
+                <div class="col-sm-20 col-md-20 work">
+                  <div class="thumbnail">
+                    <a href="https://pure-mountain-84599.herokuapp.com//" target="_blank">
+                      <img src="./Assets/images/screenshot3.png" alt="All the News that's fit to Scrape">
+                    </a>
+                    <div class="caption">
+                      <h3 class="text-muted">All the News that's fit to Scrape</h3>
+                    <p> My Role: Full Stack Developer </p>
+                    <p>An application that lets users leave comments on the latest news. Rather than writing any articles this particular app uses Mongoose and Cheerio to scrape and display news from another site.
+                    </p>
+                    <p> Technologies Used: Express, Express handlebars, Mongoose, body-parser, Cherioo, Request</p>
+                    </div>
+                  </div>
+                </div>
+
+
+
+               <div class="col-sm-20 col-md-20 work">
+                  <div class="thumbnail">
+                    <a href="https://polar-cliffs-33503.herokuapp.com/#/Search?_k=u4ipxc" target="_blank">
+                      <img src="./Assets/images/screenshot2.png" alt="React Search">
+                    </a>
+                    <div class="caption">
+                      <h3 class="text-muted">NY Times Scrape</h3>
+                    <p> My Role: Full Stack Developer </p>
+                    <p> Application is a React-based NY Times article Search allowing users to query and display articles based on the user’s search terms.
+                    </p>
+                    <p> Technologies Used: Node, Express, Handelbars, MongoDB, Reactjs
+             	 	</p>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-sm-20 col-md-20 work">
+                  <div class="thumbnail">
+                    <a href="https://peaceful-meadow-96615.herokuapp.com/" target="_blank">
+                      <img src="./Assets/images/screenshot1.png" alt="Eat-Da-Burger">
+                    </a>
+                    <div class="caption">
+                      <h3 class="text-muted">Eat-Da-Burger</h3>
+                    <p> My Role: Full Stack Developer </p>
+                    <p>Restaurant application designed to let the users input the names of burgers they’d like to eat. The app will display orders in the UI; allow users to “devour” them when ready and store every burger in a database, whether devoured or not. 
+                    </p>
+                    <p> Technologies Used: Object Relational Mapping, MySQL, Node, Express, Handelbars </p>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div> <!--Close Row -->
+            </div> <!-- Close Panel Body -->
+          </div> <!-- Close Panel Container -->
+        </div> 
+        <!-- End Portfolio Content--> 
 	
 </section>
 	
@@ -62,3 +120,8 @@
 
 	</body>
 </html>
+
+
+
+
+
